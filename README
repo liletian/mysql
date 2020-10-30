@@ -37,3 +37,11 @@ like C:\mysql\bin(my location of bin in my computer is what you are seeing so ch
  The MySql service was started successfully
  
  6.C:\mysql\bin>mysql -u root - p admin
+ 
+ USE database_name;
+
+CREATE DATABASE database_name;
+
+USE database_name;
+
+
