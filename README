@@ -19,3 +19,21 @@ create user 'vsearch' identified by 'vsearchpasswd';
 grant all on vsearchlogDB.* to 'vsearch';
 
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'NewPassword';
+
+
+1. Run your cmd as administrator.
+
+2.What you will see is like this
+c:\windows\system32>
+
+3.Go to your bin location by using cd..
+like C:\mysql\bin(my location of bin in my computer is what you are seeing so chose yours correctly)
+
+4.C:\mysql\bin>mysql --install
+  Service successfully installed.
+
+5.C:\mysql\bin>NET START MySql
+ The MySql service is starting
+ The MySql service was started successfully
+ 
+ 6.C:\mysql\bin>mysql -u root - p admin
