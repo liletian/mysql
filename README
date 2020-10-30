@@ -9,3 +9,13 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'NewPassword';
 
 create user 'vsearch' identified by 'vsearchpasswd';
 grant all on vsearchlogDB.* to 'vsearch';
+
+
+
+
+create database vsearchlogDB;
+
+create user 'vsearch' identified by 'vsearchpasswd';
+grant all on vsearchlogDB.* to 'vsearch';
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'NewPassword';
