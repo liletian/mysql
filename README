@@ -1,3 +1,6 @@
+/usr/local/mysql-8.3.0-macos14-arm64/bin
+mysql location
+
 mysqld --initialize --init-file=C:\\mysql-init.txt
 
 net start mysql
